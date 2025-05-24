@@ -5593,12 +5593,12 @@ spawn(function()
         end)
     end
 end)
-Toggle = Sea:AddToggle("Toggle", {Title = "Auto Shark",Default = false })
+Toggle = Sea:AddToggle("Toggle", {Title = "Đánh cá",Default = false })
 Toggle:OnChanged(function(value)
    getgenv().AutoKillShark = value
    StopTween(getgenv().AutoKillShark)
 end)
-Toggle = Sea:AddToggle("Toggle", {Title = "Auto Piranha",Default = false })
+Toggle = Sea:AddToggle("Toggle", {Title = "Đánh thuyền",Default = false })
 Toggle:OnChanged(function(value)
     getgenv().AutoKillPiranha = value
     StopTween(getgenv().AutoKillPiranha)
@@ -5792,7 +5792,7 @@ Toggle:OnChanged(function(value)
     StopTween(getgenv().AutoTerrorshark)
 end)
 Toggle = Sea:AddToggle("Toggle", {
-    Title = "Auto Sea Beast",
+    Title = "Đánh thủy quái",
     Default = false
 })
 Toggle:OnChanged(function(value)
