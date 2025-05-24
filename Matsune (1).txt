@@ -4836,7 +4836,7 @@ _G.SelectWeapon = "Melee"
      	end
     end)
 
-   AutoFarm:Toggle("Auto Farm Level",false,function(value)
+   AutoFarm:Toggle("Cày cấp",false,function(value)
     _G.AutoFarm = value
       StopTween(_G.AutoFarm)		
        end)
@@ -4939,7 +4939,7 @@ _G.SelectWeapon = "Melee"
         end
     end)
   
-  AutoFarm:Toggle("Auto Kill Near | Mob Aura", false,function(value)
+  AutoFarm:Toggle("Đánh quái ở gần", false,function(value)
          _G.AutoNear = value
         StopTween(_G.AutoNear)
     end)
@@ -4990,7 +4990,7 @@ _G.SelectWeapon = "Melee"
       end)
     end      
 
-      AutoFarm:Toggle("Auto Farm Mastery Fruit", false,function(value)
+      AutoFarm:Toggle("Cày thông thạo trái", false,function(value)
          _G.AutoFarmFruits = value 
          StopTween(_G.AutoFarmFruits)
         end)  
@@ -5225,7 +5225,7 @@ spawn(function()
     end
 end)
 
-      AutoFarm:Seperator("Auto Chest Farm")       
+      AutoFarm:Seperator("Nhặt rương")       
          
        AutoFarm:Toggle("Auto Farm Chest", false,function(value)
          _G.FarmChest = value 
