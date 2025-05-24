@@ -7575,7 +7575,7 @@ end
         end
     end)                            
   
-       Items:Toggle("Auto kKll Cursed Captaint", false,function(Values)      
+       Items:Toggle(Đánh tàu ma", false,function(Values)      
           _G.CursedCaptain = Values
           StopTween(_G.CursedCaptain)
        end)
@@ -7632,7 +7632,7 @@ end
     end
 end)
       
-        Items:Toggle("Auto kill Rip Indra", false,function(Values)      
+        Items:Toggle("Đánh rip", false,function(Values)      
           _G.RipIndraKill = Values
           StopTween(_G.RipIndraKill)
        end)
